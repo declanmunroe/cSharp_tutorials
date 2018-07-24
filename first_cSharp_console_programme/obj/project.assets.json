@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Declan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\declan.munroe\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\cSharp\\first_cSharp_console_programme\\first_cSharp_console_programme.csproj",
+      "projectUniqueName": "C:\\www\\cSharp_tutorials\\first_cSharp_console_programme\\first_cSharp_console_programme.csproj",
       "projectName": "first_cSharp_console_programme",
-      "projectPath": "C:\\projects\\cSharp\\first_cSharp_console_programme\\first_cSharp_console_programme.csproj",
-      "packagesPath": "C:\\Users\\Declan\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\cSharp\\first_cSharp_console_programme\\obj\\",
+      "projectPath": "C:\\www\\cSharp_tutorials\\first_cSharp_console_programme\\first_cSharp_console_programme.csproj",
+      "packagesPath": "C:\\Users\\declan.munroe\\.nuget\\packages\\",
+      "outputPath": "C:\\www\\cSharp_tutorials\\first_cSharp_console_programme\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Declan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\declan.munroe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

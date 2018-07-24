@@ -9,3 +9,14 @@ C:\projects\cSharp\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_
 C:\projects\cSharp\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.AssemblyInfo.cs
 C:\projects\cSharp\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.dll
 C:\projects\cSharp\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.pdb
+C:\www\cSharp_tutorials\first_cSharp_console_programme\bin\Debug\netcoreapp2.0\first_cSharp_console_programme.deps.json
+C:\www\cSharp_tutorials\first_cSharp_console_programme\bin\Debug\netcoreapp2.0\first_cSharp_console_programme.runtimeconfig.json
+C:\www\cSharp_tutorials\first_cSharp_console_programme\bin\Debug\netcoreapp2.0\first_cSharp_console_programme.runtimeconfig.dev.json
+C:\www\cSharp_tutorials\first_cSharp_console_programme\bin\Debug\netcoreapp2.0\first_cSharp_console_programme.dll
+C:\www\cSharp_tutorials\first_cSharp_console_programme\bin\Debug\netcoreapp2.0\first_cSharp_console_programme.pdb
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.AssemblyInfoInputs.cache
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.AssemblyInfo.cs
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.dll
+C:\www\cSharp_tutorials\first_cSharp_console_programme\obj\Debug\netcoreapp2.0\first_cSharp_console_programme.pdb

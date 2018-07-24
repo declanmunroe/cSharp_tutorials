@@ -9,12 +9,26 @@ namespace first_cSharp_console_programme
             Console.WriteLine("Hello World!");
              
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 1; i <= 100; i++)
             {
-                Console.WriteLine(i);
-                if (i % 5 == 0)
+                bool fizz = i % 3 == 0;
+                bool buzz = i % 5 == 0;
+
+                if (fizz && buzz)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (fizz)
                 {
                     Console.WriteLine("Fizz");
+                }
+                else if (buzz)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
                 }
             }
             Console.ReadLine();
