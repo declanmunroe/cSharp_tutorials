@@ -1,0 +1,7 @@
+C:\www\cSharp_tutorials\cSharpIntro\bin\Debug\cSharpIntro.exe.config
+C:\www\cSharp_tutorials\cSharpIntro\bin\Debug\cSharpIntro.exe
+C:\www\cSharp_tutorials\cSharpIntro\bin\Debug\cSharpIntro.pdb
+C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.exe
+C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.pdb
