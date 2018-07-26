@@ -60,10 +60,19 @@ namespace cSharpIntro
             Console.WriteLine("1 : 1.1");
             Console.WriteLine("2 : 3.5");
             Console.WriteLine("3 : 5.7");
+
             string version = Console.ReadLine();
             string versionMessage = (version == "1") ? "1.1" : (version == "2") ? "3.5" : (version == "3") ? "5.7" : "Your version doesnt exist";
+
             Console.WriteLine("The version you selected is " + versionMessage);
             Console.WriteLine("{0} is a very good version", versionMessage);
+
+            Console.WriteLine("Press return to run your first program!");
+            Console.ReadLine();
+            for (int i=0; i<10; i++)
+            {
+                Console.WriteLine(i);
+            }
             Console.ReadLine();
         }
     }

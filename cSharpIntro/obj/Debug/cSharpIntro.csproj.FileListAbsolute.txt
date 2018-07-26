@@ -5,3 +5,10 @@ C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.csprojAssemblyReferenc
 C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.csproj.CoreCompileInputs.cache
 C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.exe
 C:\www\cSharp_tutorials\cSharpIntro\obj\Debug\cSharpIntro.pdb
+C:\projects\cSharp\cSharpIntro\bin\Debug\cSharpIntro.exe.config
+C:\projects\cSharp\cSharpIntro\bin\Debug\cSharpIntro.exe
+C:\projects\cSharp\cSharpIntro\bin\Debug\cSharpIntro.pdb
+C:\projects\cSharp\cSharpIntro\obj\Debug\cSharpIntro.csprojResolveAssemblyReference.cache
+C:\projects\cSharp\cSharpIntro\obj\Debug\cSharpIntro.csproj.CoreCompileInputs.cache
+C:\projects\cSharp\cSharpIntro\obj\Debug\cSharpIntro.exe
+C:\projects\cSharp\cSharpIntro\obj\Debug\cSharpIntro.pdb
