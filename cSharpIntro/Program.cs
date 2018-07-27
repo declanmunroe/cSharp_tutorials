@@ -69,11 +69,69 @@ namespace cSharpIntro
 
             Console.WriteLine("Press return to run your first program!");
             Console.ReadLine();
+
             for (int i=0; i<10; i++)
             {
                 Console.WriteLine(i);
+                if (i == 7)
+                {
+                    Console.WriteLine("Found 7");
+                    break; //break causes the code to jump out of the foor loop.
+                }
             }
+
+            Console.WriteLine("Press return to print out your families names :");
             Console.ReadLine();
+
+            string[] names = new string[] { "Joe", "Annette", "Kevin", "Declan" };
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+            Console.WriteLine("Type in your details below and see them printed out backwards!");
+
+            Console.WriteLine("Whats your first name?");
+            string firstName = Console.ReadLine();
+
+            Console.WriteLine("Whats your last name?");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine("Where are you from?");
+            string from = Console.ReadLine();
+
+            DisplayResults(ReverseString(firstName), ReverseString(lastName), ReverseString(from));
+
+            Console.WriteLine();
+
+            string text = "This is to show an example of an over loaded method. Two methods called the same but have different input parameters, so two different methods";
+            DisplayResults(text);
+
+            Console.ReadLine();
+
+        }
+
+        private static string ReverseString(string message)
+        {
+            char[] messageArray = message.ToCharArray();
+            Array.Reverse(messageArray);
+            return String.Concat(messageArray);
+        }
+
+        private static void DisplayResults(string reversedFirstName, string reversedLastName, string reversedFrom)
+        {
+            Console.Write(String.Format("{0} {1} {2}", reversedFirstName, reversedLastName, reversedFrom));
+        }
+
+        private static void DisplayResults(string message)
+        {
+            Console.Write(message);
         }
     }
 }
