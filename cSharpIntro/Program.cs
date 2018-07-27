@@ -10,8 +10,82 @@ namespace cSharpIntro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Developer");
+            bool displaymenu = true;
 
+            while (displaymenu)
+            {
+                displaymenu = MainMenu();
+            }
+
+        }
+
+        private static bool MainMenu()
+        {
+            Console.WriteLine("Choose a programme to run:");
+            Console.WriteLine("1) Show the sum equal to 10");
+            Console.WriteLine("2) Type and print your name");
+            Console.WriteLine("3) Chose your preferrred programming language");
+            Console.WriteLine("4) Chose your preferrred programming version");
+            Console.WriteLine("5) Run your first for loop");
+            Console.WriteLine("6) Loop through array to print out your families names");
+            Console.WriteLine("7) Type in details and show backwards");
+            Console.WriteLine("8) Run overloading method");
+            Console.WriteLine("9) Close programme");
+
+            string result = Console.ReadLine();
+            if (result == "1")
+            {
+                SumToTen();
+                return true;
+
+            }
+            else if (result == "2")
+            {
+                EnterName();
+                return true;
+            }
+            else if (result == "3")
+            {
+                PrefferedProgrammingLanguage();
+                return true;
+            }
+            else if (result == "4")
+            {
+                PrefferedProgrammingVersion();
+                return true;
+            }
+            else if (result == "5")
+            {
+                RunForLoop();
+                return true;
+            }
+            else if (result == "6")
+            {
+                LoopThroughArray();
+                return true;
+            }
+            else if (result == "7")
+            {
+                ShowDetailsBackwards();
+                return true;
+            }
+            else if (result == "8")
+            {
+                ShowOverloadedMethod();
+                return true;
+            }
+            else if (result == "9")
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        private static void SumToTen()
+        {
             int x;
             int y;
             int answer;
@@ -20,7 +94,10 @@ namespace cSharpIntro
             y = 3;
             answer = x + y;
             Console.WriteLine("The sum of 7 + 3 is : " + answer);
+        }
 
+        private static void EnterName()
+        {
             Console.Write("Please type your first name: ");
             string myFirstName;
             myFirstName = Console.ReadLine();
@@ -30,7 +107,10 @@ namespace cSharpIntro
             myLastName = Console.ReadLine();
 
             Console.WriteLine("Hello " + myFirstName + " " + myLastName);
+        }
 
+        private static void PrefferedProgrammingLanguage()
+        {
             Console.WriteLine("Please chose your preferrred programming language");
             Console.WriteLine("1 : Php");
             Console.WriteLine("2 : Python");
@@ -55,7 +135,10 @@ namespace cSharpIntro
                 message = "You didnt input a correct value";
             }
             Console.WriteLine(message);
+        }
 
+        private static void PrefferedProgrammingVersion()
+        {
             Console.WriteLine("Please chose your preferrred programming language version");
             Console.WriteLine("1 : 1.1");
             Console.WriteLine("2 : 3.5");
@@ -66,20 +149,26 @@ namespace cSharpIntro
 
             Console.WriteLine("The version you selected is " + versionMessage);
             Console.WriteLine("{0} is a very good version", versionMessage);
+        }
 
+        private static void RunForLoop()
+        {
             Console.WriteLine("Press return to run your first program!");
             Console.ReadLine();
 
-            for (int i=0; i<10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(i);
                 if (i == 7)
                 {
                     Console.WriteLine("Found 7");
-                    break; //break causes the code to jump out of the foor loop.
+                    break; //break causes the code to jump out of the for loop.
                 }
             }
+        }
 
+        private static void LoopThroughArray()
+        {
             Console.WriteLine("Press return to print out your families names :");
             Console.ReadLine();
 
@@ -94,7 +183,10 @@ namespace cSharpIntro
             {
                 Console.WriteLine(name);
             }
+        }
 
+        private static void ShowDetailsBackwards()
+        {
             Console.WriteLine("Type in your details below and see them printed out backwards!");
 
             Console.WriteLine("Whats your first name?");
@@ -108,13 +200,12 @@ namespace cSharpIntro
 
             DisplayResults(ReverseString(firstName), ReverseString(lastName), ReverseString(from));
 
-            Console.WriteLine();
+        }
 
+        private static void ShowOverloadedMethod()
+        {
             string text = "This is to show an example of an over loaded method. Two methods called the same but have different input parameters, so two different methods";
             DisplayResults(text);
-
-            Console.ReadLine();
-
         }
 
         private static string ReverseString(string message)
