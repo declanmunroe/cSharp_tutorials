@@ -15,12 +15,14 @@ namespace cSharpIntro
             while (displaymenu)
             {
                 displaymenu = MainMenu();
+                Console.ReadLine();
             }
 
         }
 
         private static bool MainMenu()
         {
+            Console.Clear();
             Console.WriteLine("Choose a programme to run:");
             Console.WriteLine("1) Show the sum equal to 10");
             Console.WriteLine("2) Type and print your name");
@@ -30,7 +32,9 @@ namespace cSharpIntro
             Console.WriteLine("6) Loop through array to print out your families names");
             Console.WriteLine("7) Type in details and show backwards");
             Console.WriteLine("8) Run overloading method");
-            Console.WriteLine("9) Close programme");
+            Console.WriteLine("9) Print numbers");
+            Console.WriteLine("10) Guessing game");
+            Console.WriteLine("11) Close programme");
 
             string result = Console.ReadLine();
             if (result == "1")
@@ -76,6 +80,17 @@ namespace cSharpIntro
             }
             else if (result == "9")
             {
+                PrintNumbers();
+                return true;
+            }
+            else if (result == "10")
+            {
+                GuessingGame();
+                return true;
+            }
+            else if (result == "11")
+            {
+                Console.Write("Please enter to exit! ");
                 return false;
             }
             else
@@ -207,6 +222,58 @@ namespace cSharpIntro
             string text = "This is to show an example of an over loaded method. Two methods called the same but have different input parameters, so two different methods";
             DisplayResults(text);
         }
+
+        private static void PrintNumbers()
+        {
+            Console.WriteLine("Print numbers!");
+            Console.Write("Type a number");
+            int result = int.Parse(Console.ReadLine());
+            int counter = 1;
+            while (counter < result + 1)
+            {
+                Console.Write(counter);
+                Console.Write("-");
+                counter++;
+            }
+            Console.ReadLine();
+        }
+
+        private static void GuessingGame()
+        {
+            Console.Clear();
+            Console.WriteLine("Guessing game!");
+
+            Random myRandom = new Random();
+            int randomNumber = myRandom.Next(1, 11);
+
+            int guesses = 0;
+            bool incorrect = true;
+
+            do
+            {
+                Console.WriteLine("Guess a number between 1 and 10: ");
+                string result = Console.ReadLine();
+                guesses++;
+                if (result == randomNumber.ToString())
+                {
+                    incorrect = false;
+                }
+                else
+                {
+                    Console.WriteLine("Wrong!");
+                }
+            }
+            while (incorrect);
+                Console.WriteLine("Correct! It took you {0} guesses", guesses);
+
+            Console.ReadLine();
+            
+        }
+
+
+
+
+
 
         private static string ReverseString(string message)
         {
