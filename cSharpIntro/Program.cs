@@ -34,7 +34,8 @@ namespace cSharpIntro
             Console.WriteLine("8) Run overloading method");
             Console.WriteLine("9) Print numbers");
             Console.WriteLine("10) Guessing game");
-            Console.WriteLine("11) Close programme");
+            Console.WriteLine("11) Date");
+            Console.WriteLine("12) Close program");
 
             string result = Console.ReadLine();
             if (result == "1")
@@ -90,7 +91,12 @@ namespace cSharpIntro
             }
             else if (result == "11")
             {
-                Console.Write("Please enter to exit! ");
+                ShowDateAndAdd();
+                return true;
+            }
+            else if (result == "12")
+            {
+                Console.WriteLine("Press return to close program");
                 return false;
             }
             else
@@ -268,6 +274,15 @@ namespace cSharpIntro
 
             Console.ReadLine();
             
+        }
+
+        public static void ShowDateAndAdd()
+        {
+            DateTime date = DateTime.Now;
+            Console.WriteLine(date);
+            Console.WriteLine("Add a number of days to the current date :");
+            int day = int.Parse(Console.ReadLine());
+            Console.WriteLine(date.AddDays(day).ToLongDateString());
         }
 
 

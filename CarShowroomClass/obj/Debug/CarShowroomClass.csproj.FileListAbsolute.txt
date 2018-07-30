@@ -1,0 +1,7 @@
+C:\projects\cSharp\CarShowroomClass\bin\Debug\CarShowroomClass.exe.config
+C:\projects\cSharp\CarShowroomClass\bin\Debug\CarShowroomClass.exe
+C:\projects\cSharp\CarShowroomClass\bin\Debug\CarShowroomClass.pdb
+C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.csprojResolveAssemblyReference.cache
+C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CoreCompileInputs.cache
+C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.exe
+C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.pdb
