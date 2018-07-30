@@ -10,6 +10,7 @@ namespace CarShowroomClass
     {
         static void Main(string[] args)
         {
+            /*
             Car myCar = new Car();
             myCar.Make = "Opel";
             myCar.Model = "Astra";
@@ -22,6 +23,11 @@ namespace CarShowroomClass
             //Console.WriteLine("{0:C}", value);
 
             Console.WriteLine("{0:C}", myCar.DetermineMarketValue());
+            Console.ReadLine();
+            */
+
+            Car mySecondCar = new Car("Volvo", "V40", 2007, "Navey");
+            Console.WriteLine("{0} {1} {2} {3}", mySecondCar.Make, mySecondCar.Model, mySecondCar.Year, mySecondCar.Color);
             Console.ReadLine();
         }
 
@@ -38,6 +44,14 @@ namespace CarShowroomClass
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
+
+        public Car(string make, string model, int year, string color)
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+            Color = color;
+        }
 
         public decimal DetermineMarketValue()
         {

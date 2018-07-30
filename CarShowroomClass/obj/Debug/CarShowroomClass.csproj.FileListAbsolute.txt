@@ -5,3 +5,10 @@ C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.csprojResolveAsse
 C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CoreCompileInputs.cache
 C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.exe
 C:\projects\cSharp\CarShowroomClass\obj\Debug\CarShowroomClass.pdb
+C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.exe
+C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.pdb
+C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe.config
+C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe
+C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.pdb
