@@ -8,8 +8,15 @@ namespace CarShowroomClass
 {
     class Program
     {
+        private static string k = "";
+
         static void Main(string[] args)
         {
+            for (int i = 0; i < 10; i++)
+            {
+                k = i.ToString();
+            }
+            ScopeMethod();
             /*
             Car myCar = new Car();
             myCar.Make = "Opel";
@@ -28,7 +35,15 @@ namespace CarShowroomClass
 
             Car mySecondCar = new Car("Volvo", "V40", 2007, "Navey");
             Console.WriteLine("{0} {1} {2} {3}", mySecondCar.Make, mySecondCar.Model, mySecondCar.Year, mySecondCar.Color);
+
+            Car.MyMethod();
+            mySecondCar.ReturnContentFromPrivateMethod("Beetal");
             Console.ReadLine();
+        }
+
+        static void ScopeMethod()
+        {
+            Console.WriteLine("Printing out the value of k :" + k);
         }
 
         private static decimal DetermineMarketValue(Car car)
@@ -67,6 +82,23 @@ namespace CarShowroomClass
             }
 
             return carvalue;
+        }
+
+        public static void MyMethod() /* the static method means it is just a utility method for example. I cant access The Car class properties inside a static method, however I can in the method above as it is not a static method. Look up video 15 for refernce. Very good video */
+        {
+            Console.WriteLine("Called the static MyMethod");
+        }
+
+        public void ReturnContentFromPrivateMethod(string make)
+        {
+            Make = make;
+            
+            Console.WriteLine(privateMethod(Make));
+        }
+
+        private string privateMethod(string car_make)
+        {
+            return "Text from private method called from public method outside the Car class with Car class property Make set to : " + car_make;
         }
     }
 }
