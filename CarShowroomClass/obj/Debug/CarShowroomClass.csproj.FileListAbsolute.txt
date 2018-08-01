@@ -12,3 +12,6 @@ C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.pdb
 C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe.config
 C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe
 C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.pdb
+C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.dll
+C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.pdb
+C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CopyComplete

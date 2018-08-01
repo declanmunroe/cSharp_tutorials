@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyCodeLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,6 +39,10 @@ namespace CarShowroomClass
 
             Car.MyMethod();
             mySecondCar.ReturnContentFromPrivateMethod("Beetal");
+
+            Scrape myScrape = new Scrape();
+            string value = myScrape.ScrapeWebpage("http://www.corrie.net/kabin/gazette.html");
+            Console.WriteLine(value);
             Console.ReadLine();
         }
 

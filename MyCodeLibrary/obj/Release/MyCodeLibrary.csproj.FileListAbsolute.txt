@@ -1,0 +1,5 @@
+C:\www\cSharp_tutorials\MyCodeLibrary\bin\Release\MyCodeLibrary.dll
+C:\www\cSharp_tutorials\MyCodeLibrary\bin\Release\MyCodeLibrary.pdb
+C:\www\cSharp_tutorials\MyCodeLibrary\obj\Release\MyCodeLibrary.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\MyCodeLibrary\obj\Release\MyCodeLibrary.dll
+C:\www\cSharp_tutorials\MyCodeLibrary\obj\Release\MyCodeLibrary.pdb
