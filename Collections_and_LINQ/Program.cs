@@ -96,6 +96,19 @@ namespace Collections_and_LINQ
             Console.WriteLine("An example of a one line foreach statement with a LINQ method");
             myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
 
+            Console.WriteLine("Reduce the price of the sticker price by 3000 for each instance of the car class");
+            myCars.ForEach(p => p.StickerPrice -= 3000);
+            myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
+
+            Console.WriteLine("See if 745li is the name of any of our car models");
+            Console.WriteLine(myCars.Exists(p => p.Model == "745li"));
+
+            Console.WriteLine("Sum up the total value of all the stickerprices");
+            Console.WriteLine(myCars.Sum(p => p.StickerPrice));
+
+            Console.WriteLine("Print out the data type of myCars. The data type is so hard to understand when working with linq. This is why we use var to the compiller can figure out what the data type should be");
+            Console.WriteLine(myCars.GetType()); // More examples of data types in Lesson : Working with LINQ
+
 
             Console.ReadLine();
         }
