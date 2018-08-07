@@ -1,0 +1,7 @@
+C:\www\cSharp_tutorials\Collections_and_LINQ\bin\Debug\Collections_and_LINQ.exe.config
+C:\www\cSharp_tutorials\Collections_and_LINQ\bin\Debug\Collections_and_LINQ.exe
+C:\www\cSharp_tutorials\Collections_and_LINQ\bin\Debug\Collections_and_LINQ.pdb
+C:\www\cSharp_tutorials\Collections_and_LINQ\obj\Debug\Collections_and_LINQ.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\Collections_and_LINQ\obj\Debug\Collections_and_LINQ.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\Collections_and_LINQ\obj\Debug\Collections_and_LINQ.exe
+C:\www\cSharp_tutorials\Collections_and_LINQ\obj\Debug\Collections_and_LINQ.pdb
