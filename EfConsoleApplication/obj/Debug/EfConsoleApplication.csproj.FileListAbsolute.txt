@@ -1,0 +1,12 @@
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EfConsoleApplication.exe.config
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EfConsoleApplication.exe
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EfConsoleApplication.pdb
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EntityFramework.dll
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EntityFramework.xml
+C:\www\cSharp_tutorials\EfConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\www\cSharp_tutorials\EfConsoleApplication\obj\Debug\EfConsoleApplication.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\EfConsoleApplication\obj\Debug\EfConsoleApplication.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\EfConsoleApplication\obj\Debug\EfConsoleApplication.csproj.CopyComplete
+C:\www\cSharp_tutorials\EfConsoleApplication\obj\Debug\EfConsoleApplication.exe
+C:\www\cSharp_tutorials\EfConsoleApplication\obj\Debug\EfConsoleApplication.pdb
