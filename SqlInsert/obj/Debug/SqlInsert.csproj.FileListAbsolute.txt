@@ -1,0 +1,7 @@
+C:\www\cSharp_tutorials\SqlInsert\bin\Debug\SqlInsert.exe.config
+C:\www\cSharp_tutorials\SqlInsert\bin\Debug\SqlInsert.exe
+C:\www\cSharp_tutorials\SqlInsert\bin\Debug\SqlInsert.pdb
+C:\www\cSharp_tutorials\SqlInsert\obj\Debug\SqlInsert.csprojAssemblyReference.cache
+C:\www\cSharp_tutorials\SqlInsert\obj\Debug\SqlInsert.csproj.CoreCompileInputs.cache
+C:\www\cSharp_tutorials\SqlInsert\obj\Debug\SqlInsert.exe
+C:\www\cSharp_tutorials\SqlInsert\obj\Debug\SqlInsert.pdb
