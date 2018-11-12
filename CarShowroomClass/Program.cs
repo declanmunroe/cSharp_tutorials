@@ -41,7 +41,7 @@ namespace CarShowroomClass
             mySecondCar.ReturnContentFromPrivateMethod("Beetal");
 
             Scrape myScrape = new Scrape();
-            string value = myScrape.ScrapeWebpage("http://www.corrie.net/kabin/gazette.html");
+            string value = myScrape.ScrapeWebpage("https://www.google.ie");
             Console.WriteLine(value);
             Console.ReadLine();
         }

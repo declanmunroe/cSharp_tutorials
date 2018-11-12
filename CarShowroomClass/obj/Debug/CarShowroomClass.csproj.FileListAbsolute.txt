@@ -15,3 +15,13 @@ C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.pdb
 C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.dll
 C:\www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.pdb
 C:\www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CopyComplete
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe.config
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.exe
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\bin\Debug\CarShowroomClass.pdb
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.dll
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\bin\Debug\MyCodeLibrary.pdb
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csprojAssemblyReference.cache
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CoreCompileInputs.cache
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.csproj.CopyComplete
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.exe
+C:\csharp_www\cSharp_tutorials\CarShowroomClass\obj\Debug\CarShowroomClass.pdb
