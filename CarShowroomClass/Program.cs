@@ -75,8 +75,9 @@ namespace CarShowroomClass
 
         public decimal DetermineMarketValue()
         {
-            decimal carvalue;
+            return Year > 2006 ? 2000 : 1000;
 
+/* 
             if (Year > 2006)
             {
                 carvalue = 2000;
@@ -85,8 +86,8 @@ namespace CarShowroomClass
             {
                 carvalue = 1000;
             }
-
-            return carvalue;
+*/
+           // return carvalue;
         }
 
         public static void MyMethod() /* the static method means it is just a utility method for example. I cant access The Car class properties inside a static method, however I can in the method above as it is not a static method. Look up video 15 for refernce. Very good video */
